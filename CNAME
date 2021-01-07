@@ -1,5 +1,5 @@
-$ dig www.cme-la.org   +nostats   +nocomments   +nocmd
-  > ;www.cme-la.org.  IN A
-  > www.cme-la.org.   3592 IN CNAME maynoreelias.github.io.
-  > maynoreelias.github.io.     43192  IN CNAME github-pages-server .
-  > github-pages-server .  22  IN  A  192.0.2.1
+$ dig WWW.CME-LA.ORG +nostats +nocomments +nocmd
+    > ;WWW.CME-LA.ORG.                     IN      A
+    > WWW.CME-LA.ORG.              3592    IN      CNAME   MAYNOREELIAS.github.io.
+    > MAYNOREELIAS.github.io.      43192   IN      CNAME    GITHUB-PAGES-SERVER .
+    >  GITHUB-PAGES-SERVER .         22      IN      A       192.0.2.1
